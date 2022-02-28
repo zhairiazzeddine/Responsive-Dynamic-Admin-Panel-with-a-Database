@@ -48,10 +48,10 @@ if(isset($_POST['generatepassword']))
                     $mail->SMTPAuth="true";
                     $mail->SMTPSecure = "tls";
                     $mail->Port= "587";
-                    $mail->Username= "jihane.zhr33@gmail.com";
-                    $mail->Password= "jihane098";  
+                    $mail->Username= "*****";
+                    $mail->Password= "*****";  
                     $mail->Subject="Password Reset";
-                    $mail->setFrom("jihane.zhr33@gmail.com","ZHAIRI-AZZEDDINE Support");
+                    $mail->setFrom("********","ZHAIRI-AZZEDDINE Support");
                     $mail->isHTML(true); 
                     $mail->Body = "
                                     <!doctype html>
